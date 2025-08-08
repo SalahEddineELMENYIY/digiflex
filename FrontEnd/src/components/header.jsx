@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import DigiFlexLogo from "../assets/DigiFlex.png";
+import { ShoppingBasket } from "lucide-react";
 
 export default function Header() {
     return (
@@ -30,7 +31,7 @@ export default function Header() {
                                 <Link to={"/contact"}>contact</Link>
                             </li>
                             <li className="ml-5 px-2 py-1 first-letter:capitalize">
-                                cart
+                                <ShoppingBasket />
                             </li>
                             <li className="ml-5 px-2 py-1 first-letter:capitalize">
                                 <Link to={"/login"}>login</Link>
